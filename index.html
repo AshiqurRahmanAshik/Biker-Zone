@@ -29,6 +29,7 @@
             colors: {
               clifford: "#da373d",
               "bike-primary-color": "#E76F51",
+              "bike-primary-color-bg": "rgba(231, 111, 81, 0.1)",
             },
           },
         },
@@ -45,7 +46,6 @@
     <!-- Header Section -->
     <header class="md:container mx-auto">
       <!-- Navbar -->
-
       <nav>
         <div class="navbar bg-base-100">
           <div class="flex-1">
@@ -92,6 +92,121 @@
           </div>
         </div>
       </nav>
+      <!-- Slider Section -->
+      <div class="carousel w-full lg:h-[550px] bg-bike-primary-color-bg">
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- Text -->
+            <div class="flex-1 space-y-10">
+              <h1 class="text-6xl font-bold">Hero MotoCorp</h1>
+              <br />
+              <p>
+                It is one of the largest and most prominent motorcycle
+                manufacturers in India and the world. Known for producing
+                reliable, affordable, and fuel-efficient motorcycles, Hero
+                MotoCorp has built a strong reputation.
+              </p>
+              <button class="btn bg-bike-primary-color text-white">
+                Purchase
+              </button>
+            </div>
+            <!-- Image -->
+            <div class="flex-1">
+              <img src="./images/slider/bike1.png" class="w-[400px]" />
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- Text -->
+            <div class="flex-1 space-y-10">
+              <h1 class="text-6xl font-bold">Honda CBR 300R</h1>
+              <br />
+              <p>
+                The Honda CBR300R is a fantastic entry-level sportbike that
+                offers a perfect balance between performance, practicality, and
+                affordability.
+              </p>
+              <button class="btn bg-bike-primary-color text-white">
+                Purchase
+              </button>
+            </div>
+            <!-- Image -->
+            <div class="flex-1">
+              <img src="./images/slider/bike2.png" class="w-[400px]" />
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- Text -->
+            <div class="flex-1 space-y-10">
+              <h1 class="text-6xl font-bold">Suzuki Gixxer 250</h1>
+              <br />
+              <p>
+                The Suzuki Gixxer 250 is a sporty, reliable, and stylish
+                motorcycle that is part of Suzuki's popular Gixxer series. It's
+                designed for riders who want a versatile bike suitable for both
+                city commuting and spirited weekend rides.
+              </p>
+              <button class="btn bg-bike-primary-color text-white">
+                Purchase
+              </button>
+            </div>
+            <!-- Image -->
+            <div class="flex-1">
+              <img src="./images/slider/bike3.png" class="w-[400px]" />
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- Text -->
+            <div class="flex-1 space-y-10">
+              <h1 class="text-6xl font-bold">Ducati Panigale V4</h1>
+              <br />
+              <p>
+                Ducati is an Italian motorcycle manufacturer renowned for its
+                high-performance, stylish, and premium motorcycles. Known for
+                their cutting-edge technology, distinctive design, and thrilling
+                performance, Ducati bikes are a favorite among enthusiasts and
+                racers.
+              </p>
+              <button class="btn bg-bike-primary-color text-white">
+                Purchase
+              </button>
+            </div>
+            <!-- Image -->
+            <div class="flex-1">
+              <img src="./images/slider/bike4.png" class="w-[400px]" />
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Main Section -->
